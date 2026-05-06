@@ -3,7 +3,7 @@ import { useInView } from '../hooks/useInView'
 const stats = [
   { number: '1+',    label: 'Year Professional Experience' },
   { number: '5+',    label: 'Technical Skill Domains' },
-  { number: '2+',    label: 'Real-World Projects' },
+  { number: '1',    label: 'Real-World Projects' },
   { number: '3',     label: 'Countries & Institutions' },
 ]
 

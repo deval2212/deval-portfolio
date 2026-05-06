@@ -64,7 +64,7 @@ export default function Contact() {
           <div className={`reveal reveal-delay-2${visible ? ' visible' : ''}`}>
             <div className="contact-intro">
               <p>
-                I'm currently open to new opportunities — whether it's a full-time role,
+                I'm currently open to new opportunities - whether it's a full-time role,
                 freelance project, or just a conversation. My inbox is always open.
               </p>
               <p>

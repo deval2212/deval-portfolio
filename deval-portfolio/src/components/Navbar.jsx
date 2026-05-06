@@ -25,7 +25,7 @@ export default function Navbar() {
       <div className="container">
         <nav className="navbar-inner">
           <a href="#hero" className="navbar-logo">
-            Deval Mistry<span>.</span>
+            Deval Mistry<span></span>
           </a>
 
           <div className="navbar-links">

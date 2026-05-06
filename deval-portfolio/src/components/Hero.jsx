@@ -17,7 +17,7 @@ export default function Hero() {
               Hello, I'm<br /><em>Deval Mistry</em>
             </h1>
             <p className="hero-tagline reveal visible" style={{ transitionDelay: '0.2s' }}>
-              Designing interfaces that feel effortless —
+              Designing interfaces that feel effortless -
               engineering systems that perform.
               Based in Ontario, Canada.
             </p>
@@ -27,7 +27,7 @@ export default function Hero() {
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 3l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
               </a>
               <a href="/resume.pdf" download className="btn-outline">
-                Download CV
+                Download Resume
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1v8M3.5 6l3.5 4 3.5-4M2 12h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
               </a>
             </div>

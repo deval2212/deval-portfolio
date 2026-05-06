@@ -4,17 +4,17 @@ const categories = [
   {
     icon: '⌨️',
     title: 'Languages & Scripting',
-    tags: ['JavaScript', 'TypeScript', 'Python', 'HTML', 'CSS', 'SQL', 'JSON', 'XML'],
+    tags: ['JavaScript', 'TypeScript', 'HTML', 'CSS', 'SQL', 'JSON'],
   },
   {
     icon: '🎨',
     title: 'Frontend Development',
-    tags: ['React', 'Angular', 'Redux', 'RxJS', 'Ionic', 'Material-UI', 'Tailwind CSS', 'Responsive Design'],
+    tags: ['React', 'Angular', 'Material-UI', 'Tailwind CSS', 'Responsive Design'],
   },
   {
     icon: '⚙️',
     title: 'Backend & APIs',
-    tags: ['Node.js', 'Express.js', 'NestJS', 'REST APIs', 'GraphQL', 'JWT', 'OAuth', 'Microservices'],
+    tags: ['Node.js', 'Express.js', 'NestJS', 'REST APIs', 'JWT', 'OAuth'],
   },
   {
     icon: '🗄️',
@@ -24,12 +24,7 @@ const categories = [
   {
     icon: '☁️',
     title: 'DevOps & Deployment',
-    tags: ['Docker', 'GitHub Actions', 'Jenkins', 'CI/CD', 'AWS Lambda', 'Cloud Deployments'],
-  },
-  {
-    icon: '🤖',
-    title: 'AI & Data Skills',
-    tags: ['scikit-learn', 'TensorFlow', 'NLP', 'Predictive Modeling', 'Data Visualization'],
+    tags: ['GitHub Actions', 'Cloud Deployments'],
   },
   {
     icon: '🎭',

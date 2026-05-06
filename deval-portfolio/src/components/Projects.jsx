@@ -16,21 +16,6 @@ const projects = [
       'WCAG-compliant & fully mobile responsive',
     ],
   },
-  {
-    type: 'Full-Stack · CRM Development',
-    title: 'CRM Platform — Transpire IT Services',
-    description:
-      'Engineered key CRM features at Transpire IT Services using Node.js, Express, and MySQL. Improved multi-tenant workflow efficiency by 25%, resolved high-priority production issues increasing uptime by 20%, and authored UML documentation that cut developer onboarding time by 15%.',
-    stack: ['Node.js', 'Express.js', 'MySQL', 'UML', 'REST APIs'],
-    liveUrl: null,
-    githubUrl: null,
-    highlights: [
-      '25% improvement in multi-tenant workflow efficiency',
-      '20% increase in platform uptime',
-      '15% reduction in developer onboarding time',
-      'Cross-team QA collaboration & performance fixes',
-    ],
-  },
 ]
 
 export default function Projects() {
