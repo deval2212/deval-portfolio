@@ -2,12 +2,85 @@
 
 A clean, minimal React portfolio built with Vite. Live on Vercel.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/deval2212/deval-portfolio)
+
 ---
 
 ## 🚀 Quick Start (Local Development)
 
 ```bash
-# 1. Install dependencies
+# 1. Clone the repository
+git clone https://github.com/deval2212/deval-portfolio.git
+cd deval-portfolio
+
+# 2. Install dependencies
+npm install
+
+# 3. Copy environment variables
+cp .env.example .env
+
+# 4. Fill in your EmailJS credentials in .env
+# Get them from https://www.emailjs.com/
+
+# 5. Start development server
+npm run dev
+```
+
+---
+
+## 🔧 Configuration
+
+### EmailJS Setup (Contact Form)
+
+1. Go to [https://www.emailjs.com](https://www.emailjs.com) and create a free account
+2. Create an **Email Service** (connect your Gmail)
+3. Create an **Email Template**
+4. Copy your credentials to `.env`:
+   ```env
+   VITE_EMAILJS_SERVICE_ID=your_service_id
+   VITE_EMAILJS_TEMPLATE_ID=your_template_id
+   VITE_EMAILJS_PUBLIC_KEY=your_public_key
+   ```
+
+### Vercel Deployment
+
+1. **Connect GitHub repository** to Vercel
+2. **Add Environment Variables** in Vercel Dashboard:
+   - `VITE_EMAILJS_SERVICE_ID`
+   - `VITE_EMAILJS_TEMPLATE_ID`
+   - `VITE_EMAILJS_PUBLIC_KEY`
+3. **Deploy** - Vercel will automatically build and deploy
+
+---
+
+## 📁 Project Structure
+
+```
+deval-portfolio/
+├── public/           # Static assets
+├── src/
+│   ├── components/   # React components
+│   ├── hooks/        # Custom React hooks
+│   └── ...
+├── .env.example      # Environment template
+├── vercel.json       # Vercel configuration
+└── package.json      # Dependencies
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- **React 18** - UI framework
+- **Vite** - Build tool
+- **EmailJS** - Contact form service
+- **Vercel** - Hosting platform
+
+---
+
+## 📧 Contact
+
+Feel free to reach out via the contact form or email: devalgajjar204@gmail.com
 npm install
 
 # 2. Set up environment variables
